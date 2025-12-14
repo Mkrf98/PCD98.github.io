@@ -1,0 +1,42 @@
+body {
+  font-family: Arial;
+  color: rgb(225,225,225);
+  background-color: rgb(100,100,100);
+}
+
+div {
+  background-color: rgb(40,40,40);
+  margin: 5px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+#div_title, #div_main_page, #div_main_page_info {
+  text-align: center;
+}
+
+.link {
+  color: white;
+  background-color: rgb(200,50,50);
+  margin: auto;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#link_event:hover {
+  
+}
+
+#link_index {
+  color: white;
+  background-color: rgb(50,50,150);
+  margin: auto;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#div_main_page {
+  padding: 0;
+}
