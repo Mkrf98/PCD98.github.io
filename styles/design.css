@@ -1,14 +1,22 @@
 body {
   font-family: Arial;
   color: rgb(225,225,225);
+  background-image: url(https://www.mashed.com/img/gallery/youve-been-storing-gingerbread-cookies-wrong-this-whole-time/this-is-how-the-cookie-doesnt-crumble-1603670971.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
   background-color: rgb(100,100,100);
 }
 
 div {
   background-color: rgb(40,40,40);
-  margin: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
   padding: 15px;
   border-radius: 15px;
+  box-shadow: 5px 5px 10px black;
 }
 
 #div_title, #div_main_page, #div_main_page_info {
