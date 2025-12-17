@@ -1,7 +1,7 @@
 body {
   font-family: Arial;
   color: rgb(225,225,225);
-  background-image: url(https://imgur.com/a/mpN9JNC);
+  background-image: url(https://i.imgur.com/y4pVqNY.jpeg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -9,7 +9,7 @@ body {
 }
 
 div {
-  background-color: rgb(40,40,40);
+  background-color: rgb(40,40,40,0.9);
   margin-top: 15px;
   margin-bottom: 15px;
   margin-left: 200px;
