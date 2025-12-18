@@ -1,22 +1,46 @@
+/* Light Theme */
+:root {
+	--bg: rgb(225,225,225,0.9);
+	--tx: rgb(40,40,40);
+	--bg_diff: rgb(190,190,190);
+	--bg_night: rgb(152, 245, 249);
+}
+
+/* Dark Theme */
+:root[data-theme="dark"] {
+	--bg: rgb(40,40,40,0.9);
+	--tx: rgb(225,225,225);
+	--bg_diff: rgb(30,30,30);
+	--bg_night: rgb(6,2,112);
+}
+
+/* Theme Change Transition */
+* {
+	transition: background-color 200ms ease, color 200ms ease;
+}
+
+/* Style */
+
 body {
-  font-family: Arial;
-  color: rgb(225,225,225);
-  background-image: url(https://i.imgur.com/y4pVqNY.jpeg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(100,100,100);
+	font-family: Arial;
+	color: rgb(225,225,225);
+	background-image: url(https://i.imgur.com/y4pVqNY.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-color: rgb(100,100,100);
 }
 
 div {
-  background-color: rgb(40,40,40,0.9);
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 200px;
-  margin-right: 200px;
-  padding: 15px;
-  border-radius: 15px;
-  box-shadow: 5px 5px 10px black;
+	color: var(--tx);
+	background-color: var(--bg);
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding: 15px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 10px black;
 }
 
 #div_title, #div_main_page, #div_main_page_info, #div_radio_overwiev, #div_radio_ids {
@@ -30,10 +54,6 @@ div {
   padding: 5px;
   border-radius: 8px;
   text-decoration: none;
-}
-
-#link_event:hover {
-  
 }
 
 #link_index {
@@ -59,7 +79,79 @@ div {
 }
 
 .key {
-	background-color: rgb(25,25,25);
+	background-color: var(--bg_diff);
 	padding: 1px;
 	border-radius: 5px;
 }
+
+#theme-toggle {
+	color: var(--tx);
+	background-color: var(--bg_diff);
+	border: none;
+	border-radius: 15px;
+	padding: 5px;
+	margin: 5px;
+}
+
+#theme-toggle:hover {
+	border: solid;
+	border-color: var(--bg_night);
+	border-width: 2px;
+}
+
+
+/* Radio Category */
+/* TO BE REMADE! */
+
+
+
+/*
+table a {
+	text-decoration: none;
+	color: rgb(225,225,225)
+}
+.yt:hover {
+	color: rgb(255,0,0);
+}
+
+.ytm:hover {
+	color: rgb(254,0,50);
+}
+
+.stf:hover {
+	color: rgb(29,185,84);
+}
+	
+.ams:hover {
+	color: rgb(255,78,107);
+}
+	
+table {
+	margin: auto;
+}
+	
+tr, th, td {
+	padding: 5px;
+	border: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: rgb(100,100,100);
+}
+	
+th {
+	text-decoration: underline;
+	background-color: rgb(60,60,60);
+}
+	
+tr:hover {
+	background-color: rgb(60,60,60);
+}
+	
+td:hover {
+	background-color: rgb(80,80,80);
+}
+*/
+
+
+
+
