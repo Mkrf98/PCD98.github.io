@@ -14,10 +14,10 @@
 	--bg_night: rgb(6,2,112);
 }
 
-/* Theme Change Transition */
+/* Theme Change Transition
 * {
 	transition: background-color 200ms ease, color 200ms ease;
-}
+} */
 
 /* Style */
 
@@ -43,7 +43,7 @@ div {
 	box-shadow: 5px 5px 10px black;
 }
 
-#div_title, #div_main_page, #div_main_page_info, #div_radio_overwiev, #div_radio_ids {
+#div_title, #div_main_page, #div_main_page_info, #div_radio_overwiev, #div_radio_ids, #div_navigation {
   text-align: center;
 }
 
@@ -88,16 +88,35 @@ div {
 	color: var(--tx);
 	background-color: var(--bg_diff);
 	border: none;
-	border-radius: 15px;
+	border-radius: 10px;
 	padding: 5px;
 	margin: 5px;
 }
 
 #theme-toggle:hover {
-	border: solid;
-	border-color: var(--bg_night);
-	border-width: 2px;
+	background-color: var(--bg_night);
 }
+
+.tab {
+	width: 75px;
+	height: 75px;
+	border-radius: 15px;
+}
+
+#tab_opened {
+	background-color: var(--bg_diff);
+	border-radius: 15px;
+}
+
+.donate_link {
+	color: var(--tx);
+	text-decoration: none;
+}
+
+.donate_link:hover {
+	color: rgb(50,225,50);
+}
+
 
 
 /* Radio Category */
